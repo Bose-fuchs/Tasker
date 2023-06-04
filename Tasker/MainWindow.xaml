@@ -194,7 +194,7 @@
                     <!--Filter Textbox-->
                     <Grid Width="200" HorizontalAlignment="Right" Grid.Row="4" >
                         <TextBlock Margin="15 0" VerticalAlignment="Center" Foreground="#b0b9c6" IsHitTestVisible="False"
-                                   Panel.ZIndex="1" Text="искать в записях"
+                                   Panel.ZIndex="1" Text="Поиск по записям"
                                    Visibility="{Binding ElementName=txtsearch, Path=Text.IsEmpty,Converter={StaticResource BoolToVis}}"/>
                         <TextBox x:Name="txtFilter" Style="{StaticResource textboxFilter}"/>
                     </Grid>
